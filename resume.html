@@ -8,17 +8,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="resume">
+    <div class="container">
+        <header class="header" id="header">
+            <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Objectives">Objectives</a></li>
+                    <li><a href="#Education">Educational Background</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Work">Work Experience</a></li>
+                    <li><a href="https://drive.google.com/file/d/1F6Z3Yep84bb0b2Bj2-J2Qt7HWlp4WRRg/view?usp=sharing" download class="split">Download a copy</a></li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+        </header>
+    </div>
+        
+<div class="backdrop" id="Home">
+    <div class="main">
       <div class="resume_left">
         <div class="resume_profile">
-          <img src="/images/myphoto.jpg" alt="profile_pic" />
+          <img src="/images/myphoto.jpg" alt="profile_pic" width="200px" />
         </div>
         <div class="resume_content">
           <div class="resume_item resume_info">
-            <div class="title">
-              <p class="bold">Alma Cleto</p>
-              <p class="regular">Kodego Web Development Student</p>
+            <div class="myName">
+              <h1>Alma Cleto</h1>
             </div>
+              <p class="kodego">&lt;&lt;Kodego Web Development Student&gt;&gt;</p>
+            
+            <div class="contact_info">
             <ul>
               <li>
                 <div class="#">
@@ -40,8 +61,23 @@
                 <div class="#">Linkedin: www.linkedin.com/sample_only</div>
               </li>
             </ul>
+        </div>
+        <hr>
           </div>
-          <div class="resume_item resume_skills">
+          <div class="resume_item resume_skills" id="Skills">
+           
+            <div class="resume_right" id="Objectives">
+                <div class="resume_item resume_about" >
+                  <div class="title">
+                    <p class="bold">Objectives</p>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Perspiciatis illo fugit officiis distinctio culpa officia totam
+                    atque exercitationem inventore repudiandae?
+                  </p>
+                </div>
+                <hr>
             <div class="title">
               <p class="bold">CORE COMPETENCIES</p>
             </div>
@@ -72,33 +108,23 @@
               </li>
             </ul>
           </div>
-      <div class="resume_right">
-        <div class="resume_item resume_about">
-          <div class="title">
-            <p class="bold">Objectives</p>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perspiciatis illo fugit officiis distinctio culpa officia totam
-            atque exercitationem inventore repudiandae?
-          </p>
-        </div>
-
-        <div class="resume_item resume_work">
+          <hr>
+        <section class ="right_side">
+      
+        <div class="resume_item resume_work" id="Work">
           <div class="title">
             <p class="bold">Work Experience</p>
           </div>
           <ul>
             <li>
-              <div class="date">March 2022 - October 2022</div>
+              
               <div class="info">
                 <p class="semi-bold">
-                  Part-time Online Content Writer
-                <br>
+                  Part-time Online Content Writer</p>
+
                 Quotes Sharing |
                   Onlinejobs.ph.
                   </p>
-                  <br>
                 <p class="semi-bold">
                   Responsibilities:</p>
                
@@ -106,89 +132,95 @@
                   collection description and summary. Manage and maintain the
                   company's social media platforms.
                 </p>
+                <div class="date">March 2022 - October 2022</div>
               </div>
             </li>
             <li>
-              <div class="date">May 07, 2018 - May 27, 2019</div>
               <div class="info">
                 <p class="semi-bold">Customer Service Representative Customer Service
                     Representative
-                    <br>
+                </p>
+                <p>
                     BPO CORP</p>
-                <br />
-                <p class="semi-bold">Location:
-                <br>
+                <p>
                     Unit D 7th Fl. Belvedere Tower, One San Miguel Ave., Pasig
                     City
                 </p>
-                  <br />
-                
                 <p class="semi-bold">
-                    Responsibilities:
-                    <br />
+                    Responsibilities:</p>
                     Request monetary donations over the phone for various
                     campaigns, such as Breast Cancer Organization, Fire Fighter,
                     and Child Care Facilities.
                   </p>
-                <br />
               </div>
+              <div class="date">May 07, 2018 - May 27, 2019</div>
             </li>
+            <br>
             <li>
-              <div class="date">April 11, 2017 - November 21, 2017</div>
+              
               <div class="info">
                 <p class="semi-bold">
                     Customer Service Representative
-                    <br>
+                </p>
+                    <p>
                     ICONCEPT MD CONTACT SOLUTIONS
                 </p>
-                <br>
-                <p class="semi-bold">
-                  Location:
-                 <br>
+                <p>
                   Unit 2005-2007 Prestige Tower, Emerald Ave. Pasig City
                 </p>
-                <br>
                 <p class="semi-bold">
                   Responsibilities:
                   <br />
+                </p>
+                  <p>
                   Request monetary donations over the phone for various
                   campaigns, such as Breast Cancer Organization, Fire Fighter,
                   and Child Care Facilities.
                 </p>
               </div>
+              <div class="date">April 11, 2017 - November 21, 2017</div>
             </li>
           </ul>
         </div>
-        <div class="resume_item resume_education">
+        <hr>
+        <div class="resume_item resume_education" id="Education">
           <div class="title">
             <p class="bold">Educational Background</p>
           </div>
           <ul>
-            
             <li>
-              <div class="date">SY. 2011 – 2012</div>
-              <div class="info">
-                <p class="semi-bold">COLLEGE
-                    <br>
-                    Eduardo L. Joson Memorial College (ELJMC)
-                </p>
-                <p class="semi-bold">Location:
-                    <br>
-                    Palayan City, Nueva Ecija, PH
-                </p>
-              </div>
-            </li>
-            <li>
-                <div class="date">October 28, 2022 – present</div>
                 <div class="info">
                   <p class="semi-bold">Web Development Training 
-                      
                   </p>
-                  <p class="semi-bold">Bootcamp Training Center:
+                    <p>Bootcamp Training Center:
+                    </p>
+                    <p>Kodego.ph</p>
+                <div class="date">October 28, 2022 – present
+                </div>
+                  <br>
+                </div>
+            </li>
+              
+            <li>
+              <div class="info">
+                <p class="semi-bold">COLLEGE
+                    </p>
+                    <p>Eduardo L. Joson Memorial College (ELJMC)</p>
+                    <p>Palayan City, Nueva Ecija, PH</p>
+              </div>
+              <div class="date">SY. 2011 – 2012</div>
+            </li>
+
+            <li>
+                <div class="info">
+                  <p class="semi-bold">Professional Regulation Commission (PRC)
+                  </p>
+                  <p>Licensure Exam for Teachers (LET)
                       <br>
-                      Kodego.ph
+                      Passer
                   </p>
                 </div>
+                <div class="date">December 22, 2020 – present</div>
               </li>
               </div>
             </li>
@@ -197,5 +229,12 @@
         </div>
       </div>
     </div>
+</section>
+</div>
+</div>
+<footer>
+    <p>Email me at Alma@kodego.ph</p>
+    <p>Copyright 2022</p>
+  </footer>
   </body>
 </html>
