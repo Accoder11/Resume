@@ -24,9 +24,8 @@ header {
     margin: 0;
     text-align: center;
 }
-
 .navigation li {
-    display: inline-block;
+    display: inline-block
 }
 
 .navigation a{
