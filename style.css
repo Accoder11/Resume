@@ -1,6 +1,9 @@
 
 header {
-    background: #7cbff9;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    background:red;
     border: 1px solid black;
     height: 70px;
 }
