@@ -1,2 +1,2 @@
 # Resume
-For training purposes only
+Resume using HTML and CSS only
