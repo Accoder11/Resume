@@ -89,3 +89,9 @@ li {
     font-weight: bold;
     text-align: center;
 }
+.education {
+    background-color: red; height: 300px
+}
+.work {
+    background: brown;
+}
