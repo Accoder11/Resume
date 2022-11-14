@@ -1,20 +1,11 @@
-div {
-    background-color: aliceblue;
-    border-bottom: 3px solid red;
-}
 
-h1 {
-    display: block;
-}
-
-p {
-    display: inline;
-    margin-left: 5px;
-}
-
-img {
-    display: inline;
-    width: 150px;
-    height: auto;
+header {
+    background: #7cbff9;
     border: 1px solid black;
+    height: 70px;
+}
+nav{
+    background: #d9e3f9;
+    height: 50px;
+    border: 1px dotted #000;
 }
