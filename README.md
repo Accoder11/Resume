@@ -1,2 +1,2 @@
 # Resume
-Resume using HTML and CSS only
+Online resume using HTML and CSS.
