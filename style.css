@@ -2,15 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-  
+    box-sizing: border-box;
 }
     .resume_profile img {
         float: right;
-        border-radius: 50%;
-        width: 200px;
-        border: 1px solid;
-        margin-top: 24px;
-        margin-right: 40px;
+    border-radius: 50%;
+    width: 196px;
+    border: 1px solid;
+    margin-top: 11px;
+    margin-right: -20px;
     }
     .myName {
         transform: translate(8%, 0%);
@@ -23,26 +23,42 @@ body {
     .kodego {
         transform: translate(0%, 330%);
         position: absolute;
-        width: 335px;
+        width: 365px;
         padding: 2px;
-        left: 41px;
+        left: 65px;
         top: -14px;
 }
 
-    .title {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 2em;
-    }
+.title {
+    font-family: sans-serif, Verdana;
+    font-size: 2rem;
+    margin-bottom: -8px;
+}
     .contact_info {
         background: gainsboro;
         color: black;
-        height: 172px;
-        margin-right: -2px;
-        margin-top: -9px;
+        height: 140px;
+        margin-right: -33px;
+        margin-top: -34px;
         padding-top: 78px;
         box-shadow: 7px 12px 20px #777575;
-        margin-bottom: -6px;
-}
+        margin-bottom: 40px;
+        margin-left: -35px;
+        padding-left: 31px;
+    }
+
+    .bold {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    span {
+        font-weight: 500
+    }
+
+    .contact_info ul{
+        list-style: none;
+        padding-top: 15px;
+    }
 
     /*navigation*/
 
@@ -91,9 +107,10 @@ body {
     .resume_content {
         background: ghostwhite;
         border: none;
-        padding: 20px;
+        padding: 35px;
         box-shadow: -6px 29px 18px #777575;
-        margin: 0px;
+        width: 100%;
+        padding-top: 35px;
     }
         
     .resume_item .resume_info {
@@ -111,6 +128,6 @@ body {
       } 
       hr { 
         border: 0;
-        height: 4px;
+        height: 3px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 3.75), rgba(0, 0, 0, 0));
     }
