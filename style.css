@@ -103,7 +103,7 @@ body {
 
     }
     .backdrop {
-        background: white;
+        background: rgb(23, 167, 23);
         padding: 10px;
         width: 60%;
         margin: 100px auto
