@@ -53,6 +53,7 @@ body {
 }
     .profile_pic img {
         border-radius: 50%;
+        width: 100%;
     }
     .contacts {
         width: 40%;
