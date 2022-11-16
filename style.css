@@ -4,65 +4,10 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
 }
-    .resume_profile img {
-    float: right;
-    border-radius: 50%;
-    width: 196px;
-    border: 1px solid;
-    margin-top: 11px;
-    margin-right: -20px;
-    }
-    .myName {
-        transform: translate(8%, 0%);
-        position: absolute;
-        width: 385px;
-        padding: 2px;
-        top: -9px;
-        font-size: 24px;
-    }
-    .kodego {
-        transform: translate(0%, 330%);
-        position: absolute;
-        width: 365px;
-        padding: 2px;
-        left: 65px;
-        top: -14px;
-}
 
-.title {
-    font-family: sans-serif, Verdana;
-    font-size: 2rem;
-    margin-bottom: -8px;
-}
-    .contact_info {
-        background: gainsboro;
-        color: black;
-        height: 140px;
-        margin-right: -35px;
-        margin-top: -34px;
-        padding-top: 78px;
-        box-shadow: 7px 12px 20px #777575;
-        margin-bottom: 40px;
-        margin-left: -35px;
-        padding-left: 13px;
-    }
+/*navigation*/
 
-    .bold {
-        font-weight: 600;
-        font-size: 1rem;
-    }
-    span {
-        font-weight: 500
-    }
-
-    .contact_info ul{
-        list-style: none;
-        padding-top: 15px;
-    }
-
-    /*navigation*/
-
-    .container{
+.header{
     top: 0px;
     position: sticky;
     z-index: 2;
@@ -102,36 +47,80 @@ body {
         margin: 10px 5px;
         transition: 0.3s;
     }
-    .backdrop {
-        display: flex;
-        position: relative;
-        margin: 15%;
-        padding: 15px;
+    .profile_pic{
+        display: inline-flex;
+        margin: auto 40px;
 }
-    .resume_content {
-        background: ghostwhite;
+    .profile_pic img {
+        border-radius: 50%;
+        width: 180px;
+    }
+    .contacts {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+    }
+
+    .resumeHead{
+        background: bisque;
+        display: flex;
+        justify-content: space-between;
+        height: 210px;
         border: none;
-        padding: 35px;
         box-shadow: -6px 29px 18px #777575;
-        width: 100%;
-        padding-top: 35px;
     }
-        
-    .resume_item .resume_info {
-        background: yellow;
+    .myName {
+        text-align: center;
+}
+    .myName h1 {
+        font-size: 40px
     }
-    .semi-bold {
+    .title {
+        font-family: sans-serif, Verdana;
+        font-size: 2rem;
+        margin-bottom: -8px;
+}
+    .contact_info {
+        color: black;
+        text-align: justify;
+        font-size: 14px;
+        padding: 0px 30px;
+}
+    .bold {
         font-weight: 600;
     }
-    hr { 
+    span {
+        font-weight: 500
+    }
+
+    .contact_info ul{
+        list-style: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+    .backdrop {
+        background: white;
+        padding: 10px;
+        width: 60%;
+        margin: 100px auto
+
+}
+    .holder {
+        background: whitesmoke;
+        border: none;
+        box-shadow: -6px 29px 18px #777575;
+        padding: 34px 35px;
+    }
+    .semi-bold {
+        font-weight: 700;
+    }
+      hr { 
+        height: 2px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 3.75), rgba(0, 0, 0, 0));
         padding: 0;
         border: none; 
-        border-top: medium double #8c8c8c; 
-        color:#6caed5; 
-        text-align: center; 
-      } 
-      hr { 
-        border: 0;
-        height: 3px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 3.75), rgba(0, 0, 0, 0));
     }
