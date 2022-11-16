@@ -61,7 +61,6 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         padding-bottom: 15px;
-        background: red;
     }
 
     .resumeHead{
@@ -71,6 +70,7 @@ body {
         height: 220px;
         border: none;
         box-shadow: -6px 29px 18px #777575;
+        
     }
     .myName {
         text-align: center;
@@ -104,7 +104,6 @@ body {
 
     }
     .backdrop {
-        background: rgb(23, 167, 23);
         padding: 10px;
         width: 60%;
         margin: 100px auto
