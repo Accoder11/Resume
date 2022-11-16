@@ -61,13 +61,14 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         padding-bottom: 15px;
+        background: red;
     }
 
     .resumeHead{
         background: bisque;
         display: flex;
         justify-content: space-between;
-        height: 210px;
+        height: 220px;
         border: none;
         box-shadow: -6px 29px 18px #777575;
     }
